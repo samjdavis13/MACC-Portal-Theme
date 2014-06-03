@@ -1,0 +1,347 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, ../../../../../../../CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, ol, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+/* line 22, ../../../../../../../CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1; }
+
+/* line 24, ../../../../../../../CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/reset/_utilities.scss */
+ol, ul, ol {
+  list-style: none; }
+
+/* line 26, ../../../../../../../CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 28, ../../../../../../../CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle; }
+
+/* line 30, ../../../../../../../CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none; }
+  /* line 103, ../../../../../../../CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/reset/_utilities.scss */
+  q:before, q:after, blockquote:before, blockquote:after {
+    content: "";
+    content: none; }
+
+/* line 32, ../../../../../../../CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none; }
+
+/* line 116, ../../../../../../../CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block; }
+
+/*============
+- @FONT FACE -
+============*/
+/* line 8, ../sass/_fonts.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "heroregular";
+  text-transform: uppercase;
+  font-size: 25px;
+  color: #58595c;
+  margin-bottom: 10px; }
+
+/* line 16, ../sass/_fonts.scss */
+h2 {
+  font-size: 23px; }
+
+/* line 20, ../sass/_fonts.scss */
+h3 {
+  font-size: 18px; }
+
+/* line 23, ../sass/_fonts.scss */
+h4 {
+  font-size: 16px; }
+
+/* line 26, ../sass/_fonts.scss */
+h5 {
+  font-size: 14px; }
+
+/* line 29, ../sass/_fonts.scss */
+h6 {
+  font-size: 12px; }
+
+/* line 33, ../sass/_fonts.scss */
+.deafult-text, p, ul, ol {
+  font-family: Calibri, 'asapregular', sans-serif;
+  font-size: 14px;
+  line-height: 1.3;
+  color: #58595c;
+  margin-bottom: 10px; }
+
+/* line 41, ../sass/_fonts.scss */
+ul, ol {
+  list-style-type: disc;
+  padding-left: 15px; }
+
+/* line 46, ../sass/_fonts.scss */
+ol {
+  list-style-type: decimal; }
+
+/* line 51, ../sass/_fonts.scss */
+nav {
+  font-family: 'asapregular';
+  font-size: 14px;
+  color: #58595c; }
+  @media screen and (max-width: 1024px) {
+    /* line 51, ../sass/_fonts.scss */
+    nav {
+      font-size: 16px; } }
+  @media screen and (max-width: 640px) {
+    /* line 51, ../sass/_fonts.scss */
+    nav {
+      font-size: 18px; } }
+
+/* line 60, ../sass/_fonts.scss */
+footer {
+  font-size: 50px; }
+  /* line 62, ../sass/_fonts.scss */
+  footer ul li a, footer ol li a {
+    line-height: 135px;
+    color: #58595c; }
+  /* line 66, ../sass/_fonts.scss */
+  footer ul li a:hover, footer ol li a:hover {
+    color: white; }
+  /* line 69, ../sass/_fonts.scss */
+  footer #search {
+    line-height: 125px; }
+
+/* line 75, ../sass/_fonts.scss */
+#very-footer p, #very-footer ul, #very-footer ol {
+  text-transform: capitalize;
+  font-size: 12px;
+  line-height: 24px; }
+
+/* line 3, ../sass/_twitter-widget.scss */
+li.widget_twitter-tracker {
+  list-style: none; }
+  /* line 5, ../sass/_twitter-widget.scss */
+  li.widget_twitter-tracker .tweets {
+    list-style: none;
+    text-align: left; }
+    /* line 10, ../sass/_twitter-widget.scss */
+    li.widget_twitter-tracker .tweets li {
+      margin: 30px 0 15px 0; }
+    /* line 13, ../sass/_twitter-widget.scss */
+    li.widget_twitter-tracker .tweets .avatar {
+      max-width: 50px;
+      float: left; }
+    /* line 17, ../sass/_twitter-widget.scss */
+    li.widget_twitter-tracker .tweets .msg {
+      margin-left: 60px; }
+      /* line 19, ../sass/_twitter-widget.scss */
+      li.widget_twitter-tracker .tweets .msg .twit {
+        width: 100%;
+        font-weight: 700; }
+    /* line 24, ../sass/_twitter-widget.scss */
+    li.widget_twitter-tracker .tweets .info {
+      margin-top: 5px;
+      margin-left: 60px; }
+      /* line 27, ../sass/_twitter-widget.scss */
+      li.widget_twitter-tracker .tweets .info a {
+        color: lightgrey; }
+
+/*============
+--- GENERAL ---
+============*/
+/* line 29, ../sass/screen.scss */
+HTML {
+  background: #2e3a41; }
+
+/*============
+--- HEADER ---
+============*/
+/*============
+---- NAV ----
+============*/
+/* line 42, ../sass/screen.scss */
+ul#main-nav, ol#main-nav {
+  position: relative;
+  top: 25px; }
+  @media screen and (max-width: 640px) {
+    /* line 42, ../sass/screen.scss */
+    ul#main-nav, ol#main-nav {
+      top: 0;
+      margin: 0 -30px; } }
+  /* line 50, ../sass/screen.scss */
+  ul#main-nav li, ol#main-nav li {
+    z-index: 0;
+    background: #d9d9d9;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    margin: 0 2px; }
+    @media screen and (max-width: 640px) {
+      /* line 50, ../sass/screen.scss */
+      ul#main-nav li, ol#main-nav li {
+        width: 100%;
+        margin: 0;
+        -moz-border-radius: 0;
+        -webkit-border-radius: 0;
+        border-radius: 0;
+        text-align: center;
+        padding: 0 20px;
+        border-bottom: white 1px solid;
+        position: relative; } }
+    /* line 66, ../sass/screen.scss */
+    ul#main-nav li a, ol#main-nav li a {
+      color: #58595c;
+      padding: 10px 40px 20px 40px; }
+      @media screen and (max-width: 640px) {
+        /* line 66, ../sass/screen.scss */
+        ul#main-nav li a, ol#main-nav li a {
+          position: relative;
+          top: 5px; } }
+  /* line 75, ../sass/screen.scss */
+  ul#main-nav li.current_page_item, ol#main-nav li.current_page_item {
+    background: #f2f2f2; }
+
+/*============
+---- BODY ----
+============*/
+/* line 87, ../sass/screen.scss */
+#main-grid h3 {
+  margin: 20px 0;
+  text-align: center; }
+/* line 91, ../sass/screen.scss */
+#main-grid p, #main-grid ul, #main-grid ol {
+  margin: 0 0 20px 0; }
+/* line 94, ../sass/screen.scss */
+#main-grid div.item-container {
+  -moz-box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1); }
+/* line 97, ../sass/screen.scss */
+#main-grid img {
+  margin: 15px 0;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px; }
+
+/* line 103, ../sass/screen.scss */
+.item-container {
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: white;
+  overflow: hidden; }
+
+/* line 109, ../sass/screen.scss */
+#main-content {
+  padding: 20px;
+  background: #f2f2f2;
+  position: relative;
+  z-index: 2; }
+
+/* line 116, ../sass/screen.scss */
+#sidebar {
+  background: white;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  -moz-box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  overflow: hidden;
+  text-align: center; }
+
+/* line 126, ../sass/screen.scss */
+article {
+  padding-bottom: 20px; }
+
+/*============
+--- FOOTER ---
+============*/
+/* line 134, ../sass/screen.scss */
+footer {
+  text-align: center; }
+  /* line 136, ../sass/screen.scss */
+  footer ul li, footer ol li {
+    font-size: 50px;
+    display: inline-block;
+    margin: 0 15px; }
+  /* line 141, ../sass/screen.scss */
+  footer img {
+    position: relative;
+    top: 10px; }
+
+/* line 147, ../sass/screen.scss */
+#footer-container {
+  background: #2e3a41;
+  color: white;
+  text-align: center; }
+
+/* line 153, ../sass/screen.scss */
+#very-footer {
+  background: #20282d;
+  text-align: center;
+  color: #58595c;
+  font-family: hero;
+  text-transform: uppercase;
+  line-height: 30px; }
+
+/*============
+---- FORM ----
+============*/
+/* line 166, ../sass/screen.scss */
+footer .screen-reader-text {
+  display: none; }
+
+/* line 170, ../sass/screen.scss */
+footer form {
+  color: #fff;
+  font-family: 'calibri'; }
+
+/* line 175, ../sass/screen.scss */
+footer input {
+  outline: none;
+  color: #fff; }
+
+/* line 180, ../sass/screen.scss */
+footer input[type=text] {
+  width: 155px;
+  height: 30px;
+  background: #263035;
+  border: none;
+  border-bottom: 1px solid #364449;
+  padding-left: 5px;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2); }
+
+/* line 193, ../sass/screen.scss */
+footer input[type=submit] {
+  width: 50px;
+  height: 30px;
+  background: #58595B;
+  border: none;
+  color: #fff; }

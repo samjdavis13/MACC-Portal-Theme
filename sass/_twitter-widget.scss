@@ -1,0 +1,32 @@
+// _twitter-widget.scss
+
+li.widget_twitter-tracker {
+	list-style: none;
+	.tweets{
+		//position: relative;
+		//top: -50px;
+		list-style: none;
+		text-align: left;
+		li {
+			margin: 30px 0 15px 0;
+		}
+		.avatar {
+			max-width: 50px;
+			float: left;
+		}
+		.msg {
+			margin-left: 60px;
+			.twit {
+				width: 100%;
+				font-weight: 700;
+			}
+		}
+		.info {
+			margin-top: 5px;
+			margin-left: 60px;
+			a {
+				color: lightgrey;
+			}
+		}
+	}
+}
