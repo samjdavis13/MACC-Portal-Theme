@@ -340,8 +340,24 @@ footer input[type=text] {
 
 /* line 193, ../sass/screen.scss */
 footer input[type=submit] {
-  width: 50px;
-  height: 30px;
+  margin-top: 50px;
+  float: left;
+  width: 30%;
+  height: 37px;
   background: #58595B;
   border: none;
   color: #fff; }
+
+/* line 202, ../sass/screen.scss */
+input[type=submit]:hover {
+  background-color: lightgrey; }
+
+/* line 205, ../sass/screen.scss */
+input[type=submit]:active {
+  background-color: darkgrey; }
+
+/* line 209, ../sass/screen.scss */
+footer input[type=search] {
+  float: left;
+  width: 70%;
+  margin-top: 50px; }

@@ -191,9 +191,23 @@ footer input[type=text] {
 }
 
 footer input[type=submit] {
-  width: 50px;
-  height: 30px;
+  margin-top: 50px;
+  float: left;
+  width: 30%;
+  height: 37px;
   background: #58595B;
   border: none;
   color: #fff;
+}
+input[type=submit]:hover {
+  background-color: lightgrey;
+}
+input[type=submit]:active {
+  background-color: darkgrey;
+}
+
+footer input[type=search] {
+  float: left;
+  width: 70%;
+  margin-top: 50px;
 }
