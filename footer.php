@@ -15,7 +15,11 @@
           </div>
 
           <div class='large-4 column hide-for-medium hide-for-small'>
-            <p id='search'>SEARCH HERE</p>
+            <form method="get" action="http://www.google.com/search">
+              <input type='search' name="q" size="25" style="color:#808080;"
+maxlength="255" placeholder="Google Search">
+              <input type="submit" value="Go!" />
+            </form>
           </div>
 
         </div>
