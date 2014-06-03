@@ -1,0 +1,28 @@
+/* line 3, ../sass/_twitter-widget.scss */
+li.widget_twitter-tracker {
+  list-style: none; }
+  /* line 5, ../sass/_twitter-widget.scss */
+  li.widget_twitter-tracker .tweets {
+    list-style: none;
+    text-align: left; }
+    /* line 10, ../sass/_twitter-widget.scss */
+    li.widget_twitter-tracker .tweets li {
+      margin: 30px 0 15px 0; }
+    /* line 13, ../sass/_twitter-widget.scss */
+    li.widget_twitter-tracker .tweets .avatar {
+      max-width: 50px;
+      float: left; }
+    /* line 17, ../sass/_twitter-widget.scss */
+    li.widget_twitter-tracker .tweets .msg {
+      margin-left: 60px; }
+      /* line 19, ../sass/_twitter-widget.scss */
+      li.widget_twitter-tracker .tweets .msg .twit {
+        width: 100%;
+        font-weight: 700; }
+    /* line 24, ../sass/_twitter-widget.scss */
+    li.widget_twitter-tracker .tweets .info {
+      margin-top: 5px;
+      margin-left: 60px; }
+      /* line 27, ../sass/_twitter-widget.scss */
+      li.widget_twitter-tracker .tweets .info a {
+        color: lightgrey; }

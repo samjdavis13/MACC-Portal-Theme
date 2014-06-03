@@ -99,6 +99,9 @@ ul#main-nav {
     @include border-radius($default-border-radius);
   }
 }
+th.easySpoilerTitleA {
+  font-style: italic;
+}
 
 .item-container {
   @include border-radius($default-border-radius);

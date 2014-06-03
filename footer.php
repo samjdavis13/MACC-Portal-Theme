@@ -8,9 +8,9 @@
 
           <div class='large-4 column'>
             <ul class='symbol'>
-              <li><a href="#">circlefacebook</a></li>
-              <li><a href="#">circletwitterbird</a></li>
-              <li><a href="#">circleemail</a></li>
+              <li><a href="https://www.facebook.com/pages/Mount-Annan-Christian-College/89294472495?ref=br_tf">circlefacebook</a></li>
+              <li><a href="https://twitter.com/search?q=%23maccchat&src=typd">circletwitterbird</a></li>
+              <li><a href="mailto:admin@macc.nsw.edu.au">circleemail</a></li>
             </ul>
           </div>
 
