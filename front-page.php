@@ -11,7 +11,7 @@
 				?>
 				<?php if ( $the_query->have_posts() ) : while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
 					<li>
-			        	<a href='<?php the_field('link'); ?>'>
+			        	<a href='<?php the_field('link'); ?>' target='_blank'>
 			            	<div class='item-container'>
 			            		<div class='large-4 columns'>
 				                  	<img src="<?php the_field( 'image' ); ?>">
