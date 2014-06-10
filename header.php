@@ -16,12 +16,38 @@
     <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/foundation.css" />
     <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/fonts/font-face.css" />
     <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/screen.css" />
+
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    
     <script src="js/vendor/modernizr.js"></script>
+
+    <script type="text/javascript"> 
+
+        window.onscroll = function() {
+        // called when the window is scrolled.
+        var windowHeight = pageYOffset;
+
+        searchBar = document.getElementById('googleSearchBar');
+        if (windowHeight > 0)
+          searchBar.classList.add('scrolled');
+        else
+          searchBar.classList.remove('scrolled');
+      }
+    </script>
 
     <?php wp_head(); ?>
   </head>
 
   <body>
+    <div id="googleSearchBar">
+      <div class=''>
+        <form id='googleSearch' method="get" action="http://www.google.com/search" target="_blank">
+          <input type='search' name="q" size="25" style="color:#808080;" maxlength="255" placeholder='Google Search'>
+          <!--<input type="submit"><i class='fa fa-search'></i>-->
+          <button type="submit" class="fa fa-search"></button>
+        </form>
+      </div>
+    </div><div class="spacer"></div>
     <div id='header-block' class='row'>
       <div class='large-12 column'>
         <a href="<?php bloginfo('url') ?>"><img class='large-6 medium-6 small-12 push-3 column' src="<?php bloginfo('template_directory'); ?>/img/logo.png" id='main-logo'></a>
