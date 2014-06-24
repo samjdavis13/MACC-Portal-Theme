@@ -2,7 +2,7 @@
 
 	<div id='main-content'>
     	<div class='row'>
-    		<ul id='main-grid' class='medium-block-grid-2 small-block-grid-1'>
+    		<ul id='main-grid' class='large-block-grid-2 medium-block-grid-3 small-block-grid-2'>
     			<?php 
 					$args = array(
 						'post_type' => 'portal-link'
