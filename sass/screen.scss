@@ -8,16 +8,20 @@ $background-grey: #F2F2F2;
 $charcoal: #2E3A41;
 $grey-text: #58595C;
 $default-box-shadow: 0 4px 5px rgba(0,0,0,.1);
-$search-box-shadow: 0 4px 5px rgba(0,0,0,.05);
 $no-shadow: 0 0 0 #fff;
 $default-border-radius: 10px;
+
 $search-height: 50px;
+$search-radius: 3px;
+$search-box-shadow: 0 4px 5px rgba(0,0,0,.05);
+
 $google-search-grey: #F2F2F2;
 $google-search-border: #DDDDDD;
 $google-blue: #4688F1;
 $google-button-shadow: #D9D9D9;
 $google-hover-border: #C6C6C6;
-$search-radius: 3px;
+
+
 
 // Breakpoints
 $break-small: 640px;
@@ -160,7 +164,7 @@ ul#main-nav {
   }
   li {
     z-index: 0;
-    background: shade($background-grey, 10%);
+    background: shade($background-grey, 20%);
     @include border-radius($default-border-radius);
     margin: 0 2px;
 

@@ -3,7 +3,7 @@
 	<div id='main-content'>
 		<div class='row'>
 			<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-				<article class='medium-8 column'>
+				<article class='medium-8 column item-container'>
 					<a href='<?php the_permalink(); ?>'><h2 id='post-title'><?php the_title(); ?></h2></a>
 					<?php the_content(); ?>
 				</article>
