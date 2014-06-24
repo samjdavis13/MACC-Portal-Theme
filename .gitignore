@@ -14,3 +14,7 @@ config.codekit
 .sass-cache/a4b463efeb4f1c069bd8798dfa94665923674565/_twitter-widget.scssc
 
 .sass-cache/a4b463efeb4f1c069bd8798dfa94665923674565/screen.scssc
+
+.sass-cache/a4b463efeb4f1c069bd8798dfa94665923674565/_fonts.scssc
+
+*.scssc
