@@ -3,8 +3,6 @@
 li.widget_twitter-tracker {
 	list-style: none;
 	.tweets{
-		//position: relative;
-		//top: -50px;
 		list-style: none;
 		text-align: left;
 		li {
@@ -26,6 +24,17 @@ li.widget_twitter-tracker {
 			margin-left: 60px;
 			a {
 				color: lightgrey;
+			}
+		}
+		@media all and (max-width: 1024px) and (min-width: 641px) {
+			.avatar {
+				display: none;
+			}
+			.msg {
+				margin-left: 0px;
+			}
+			.info {
+				margin-left: 0px;
 			}
 		}
 	}

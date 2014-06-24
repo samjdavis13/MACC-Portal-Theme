@@ -21,7 +21,7 @@
     <footer id='very-footer'>
       <div class='row'>
         <div class='large-12 column'>
-          <p>&copy; 2014 Mount Annan Christian College. All Rights Reserved.</p>
+          <p>&copy; <?php echo date("Y"); ?> Mount Annan Christian College. All Rights Reserved.</p>
         </div>
       </div>
     </footer>
