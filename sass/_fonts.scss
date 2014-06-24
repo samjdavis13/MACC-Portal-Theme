@@ -3,10 +3,11 @@
 /*============
 - @FONT FACE -
 ============*/
-
+$default-font-stack: Calibri, 'asapregular', arial, sans-serif;
+$heading-font-stack: "heroregular", arial, sans-serif;
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: "heroregular";
+	font-family: $heading-font-stack;
 	text-transform: uppercase;
 	font-size: 25px;
 	color: $grey-text;
@@ -31,7 +32,7 @@ h6 {
 }
 
 .deafult-text, p {
-	font-family: Calibri, 'asapregular', sans-serif;
+	font-family: $default-font-stack;
 	font-size: 14px;
 	line-height: 1.3;
 	color: $grey-text;
@@ -49,7 +50,7 @@ ol {
 }
 
 nav {
-	font-family: 'asapregular';
+	font-family: $default-font-stack;
 	font-size: 14px;
 	color: $grey-text;
 
@@ -73,8 +74,13 @@ footer {
 
 #very-footer {
 	p {
-		text-transform: capitalize;
+		font-family: $heading-font-stack;
+		text-transform: uppercase;
 		font-size: 12px;
 		line-height: 24px;
 	}
+}
+
+ul.symbol li {
+	font-size: 50px;
 }
