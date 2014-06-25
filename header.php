@@ -6,34 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title><?php bloginfo('name'); ?><?php wp_title( '-', true, 'left' ); ?></title>
 
+    <!-- Favicon -->
     <link rel="icon" type="image/png" href="<?php bloginfo('template_directory'); ?>/favicon.png" />
 
+    <!-- iOS Icons -->
     <link rel="apple-touch-icon" href="<?php bloginfo('template_directory'); ?>/ios-icons/icon1.png"/>  
     <link rel="apple-touch-icon" sizes="72x72" href="<?php bloginfo('template_directory'); ?>/ios-icons/icon2.png"/>  
     <link rel="apple-touch-icon" sizes="114x114" href="<?php bloginfo('template_directory'); ?>/ios-icons/icon3.png"/> 
     <link rel="apple-touch-icon" sizes="144x144" href="<?php bloginfo('template_directory'); ?>/ios-icons/icon4.png"/> 
 
+    <!-- Stylesheets -->
     <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/foundation.css" />
     <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/fonts/font-face.css" />
     <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/screen.css" />
 
+    <!-- Font Awesome Icons -->
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-    
-    <script src="js/vendor/modernizr.js"></script>
-
-    <script type="text/javascript"> 
-
-        window.onscroll = function() {
-        // called when the window is scrolled.
-        var windowHeight = pageYOffset;
-
-        searchBar = document.getElementById('googleSearchBar');
-        if (windowHeight > 0)
-          searchBar.classList.add('scrolled');
-        else
-          searchBar.classList.remove('scrolled');
-      }
-    </script>
 
     <?php wp_head(); ?>
   </head>

@@ -1,0 +1,1 @@
+$(document).scroll(function(){var l=$(document).scrollTop(),o=$("#googleSearchBar");l>0?o.addClass("scrolled"):o.removeClass("scrolled")});
