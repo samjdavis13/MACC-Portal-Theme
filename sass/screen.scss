@@ -9,7 +9,9 @@ $charcoal: #2E3A41;
 $grey-text: #58595C;
 $default-box-shadow: 0 4px 5px rgba(0,0,0,.1);
 $no-shadow: 0 0 0 #fff;
+
 $default-border-radius: 10px;
+$nav-radius: 10px 10px 0 0;
 
 $search-height: 50px;
 $search-radius: 3px;
@@ -33,7 +35,11 @@ $break-medium: 1024px;
 // Partials
 @import 'fonts';
 @import 'googlebar';
+@import 'nav';
+@import 'body';
 @import 'twitter-widget';
+@import 'footer';
+
 
 /*============
 --- GENERAL ---
@@ -41,131 +47,4 @@ $break-medium: 1024px;
 
 HTML {
   background: $charcoal;
-}
-
-
-/*============
----- NAV ----
-============*/
-
-ul#main-nav {
-  position: relative;
-  top:25px;
-
-  @media screen and (max-width: $break-small) {
-    top: 0;
-    margin: 0 -30px;
-    margin-left: -10px
-  }
-  li {
-    z-index: 0;
-    background: shade($background-grey, 20%);
-    @include border-radius($default-border-radius);
-    margin: 0 2px;
-
-    @media screen and (max-width: $break-small) {
-      //width: 100%;
-      margin: 0;
-      @include border-radius(0);
-
-      @include border-radius(5px 5px 0 0);
-
-      text-align: center;
-      //padding: 0 20px;
-      //border-bottom: white 1px solid;
-      margin-right: 3px;
-      position: relative;
-    }
-
-    a {
-      color: $grey-text;
-      padding: 10px 40px 20px 40px;
-      @media screen and (max-width: $break-small) {
-        position: relative;
-        top: 4px;
-        padding: 5px 20px 10px 20px;
-      }
-    }
-  }
-  li.current_page_item {
-    background: $background-grey;
-  }
-}
-
-
-/*============
----- BODY ----
-============*/
-
-#main-grid {
-  h3 {
-    margin: 20px 0;
-    text-align: center;
-  }
-  p {
-    margin: 0 0 20px 0;
-  }
-  img {
-    margin: 15px 0;
-    @include border-radius($default-border-radius);
-  }
-}
-
-.item-container {
-  @include border-radius($default-border-radius);
-  @include box-shadow($default-box-shadow);
-  background: white;
-  overflow: hidden;
-}
-
-.addmargin {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
-#main-content {
-  padding: 20px;
-  background: $background-grey;
-  position: relative;
-  z-index: 2;
-}
-
-#sidebar {
-  padding: 20px;
-  text-align: center;
-}
-
-article {
-  padding-bottom: 20px;
-}
-
-/*============
---- FOOTER ---
-============*/
-
-footer {
-  text-align: center;
-  ul li {
-    display: inline-block;
-    margin: 0 15px;
-  }
-  img {
-    position: relative;
-    top: 10px;
-  }
-}
-
-#footer-container {
-  background: $charcoal;
-  color: white;
-  text-align: center;
-}
-
-#very-footer {
-  background: shade($charcoal, 30%);
-  text-align: center;
-  color: $grey-text;
-  line-height: 30px;
 }

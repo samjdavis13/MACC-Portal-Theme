@@ -1,0 +1,32 @@
+/*============
+--- FOOTER ---
+============*/
+
+footer {
+  text-align: center;
+  ul li {
+    display: inline-block;
+  }
+  .middle {
+    margin: 0 40px;
+  }
+  img {
+    position: relative;
+    top: 10px;
+  }
+}
+
+#footer-container {
+  background: $charcoal;
+  color: white;
+  text-align: center;
+  position: relative;
+  box-shadow: 0 0 10px shade($charcoal, 70%);
+}
+
+#very-footer {
+  background: shade($charcoal, 40%);
+  text-align: center;
+  color: $grey-text;
+  line-height: 30px;
+}

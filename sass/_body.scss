@@ -1,0 +1,46 @@
+/*============
+---- BODY ----
+============*/
+
+#main-grid {
+  h3 {
+    margin: 20px 0;
+    text-align: center;
+  }
+  p {
+    margin: 0 0 20px 0;
+  }
+  img {
+    margin: 15px 0;
+    @include border-radius($default-border-radius);
+  }
+}
+
+.item-container {
+  @include border-radius($default-border-radius);
+  @include box-shadow($default-box-shadow);
+  background: white;
+  overflow: hidden;
+}
+
+.addmargin {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 20px;
+}
+
+#main-content {
+  padding: 20px;
+  background: $background-grey;
+  position: relative;
+  z-index: 2;
+}
+
+#sidebar {
+  padding: 20px;
+  text-align: center;
+}
+
+article {
+  padding-bottom: 20px;
+}
