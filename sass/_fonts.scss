@@ -59,10 +59,11 @@ nav {
 }
 
 footer {
-	font-size: 50px;
+	font-size: 100px;
 	ul li a {
 		line-height: 135px;
 		color: $grey-text;
+		@media screen and (max-width: $break-small) {line-height: 100px; position: relative; top: 5px;}
 	}
 	ul li a:hover {
 		color: white;
@@ -77,10 +78,13 @@ footer {
 		font-family: $heading-font-stack;
 		text-transform: uppercase;
 		font-size: 12px;
-		line-height: 24px;
+		position: relative;
+		top: 6px;
+		@media screen and (max-width: $break-small) {font-size: 10px; top: 5px;}
+		@media screen and (max-width: 320px) {font-size: 9px; top: 4.5px;}
 	}
 }
 
 ul.symbol li {
-	font-size: 50px;
+	font-size: 60px;
 }
