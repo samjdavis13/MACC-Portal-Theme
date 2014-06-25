@@ -20,3 +20,7 @@ config.codekit
 *.scssc
 
 *.scssc
+
+*.scssc
+
+*.codekit
