@@ -8,9 +8,9 @@
 
           <div class='large-4 columns end'>
             <ul class='symbol'>
-              <li><a href="https://www.facebook.com/pages/Mount-Annan-Christian-College/89294472495?ref=br_tf" target="_blank">circlefacebook</a></li>
-              <li><a href="https://twitter.com/search?q=%23maccchat&src=typd" target="_blank">circletwitterbird</a></li>
-              <li><a href="mailto:admin@macc.nsw.edu.au" target="_blank">circleemail</a></li>
+              <li><a href="https://www.facebook.com/pages/Mount-Annan-Christian-College/89294472495?ref=br_tf" target="_blank">&#xe227;</a></li>
+              <li class='middle'><a href="https://twitter.com/search?q=%23maccchat&src=typd" target="_blank">&#xe286;</a></li>
+              <li><a href="mailto:admin@macc.nsw.edu.au" target="_blank">&#xe224;</a></li>
             </ul>
           </div>
 
