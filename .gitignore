@@ -24,3 +24,7 @@ config.codekit
 *.scssc
 
 *.codekit
+
+config.codekit
+
+*.scssc
