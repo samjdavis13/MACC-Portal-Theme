@@ -26,7 +26,7 @@
 
 div.large-4 {
   height: auto;
-  @media screen and (min-width: $break-medium) { // Large and up
+  @media screen and (min-width: $break-large-up) { // Large and up
     height: 161px;
   }
 }

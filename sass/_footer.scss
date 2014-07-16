@@ -2,6 +2,8 @@
 --- FOOTER ---
 ============*/
 
+$very-footer-background: shade($charcoal, 40%);
+
 footer {
   text-align: center;
   ul li {
@@ -25,8 +27,11 @@ footer {
 }
 
 #very-footer {
-  background: shade($charcoal, 40%);
+  background: $very-footer-background;
   text-align: center;
   color: $grey-text;
   line-height: 30px;
+  
+  // Fixes a white line underneath the very footer.
+  border-bottom: 1px solid $very-footer-background;
 }

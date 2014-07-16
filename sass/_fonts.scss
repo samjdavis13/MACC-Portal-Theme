@@ -78,6 +78,9 @@ footer {
 
 #footer-logo {
 	height: 135px;
+	@media screen and (max-width: $break-small) {
+		height: 110px;
+	}
 }
 
 #very-footer {
