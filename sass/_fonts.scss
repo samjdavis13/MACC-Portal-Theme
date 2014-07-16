@@ -31,12 +31,14 @@ h6 {
 	font-size: 12px;
 }
 
-.deafult-text, p {
+.default-text, p {
 	font-family: $default-font-stack;
 	font-size: 14px;
 	line-height: 1.3;
 	color: $grey-text;
-	margin-bottom: 10px;
+
+    // --- DAN ASKED FOR THIS TO BE DISABLED -- //
+    //margin-bottom: 20px;
 }
 
 ul {

@@ -10,12 +10,24 @@
       text-align: center;
     }
   }
-  p {
-    margin-bottom: 20px;
-  }
   img {
     margin: 15px 0;
     @include border-radius($icon-border-radius);
+  }
+  div.large-8 {
+    margin-bottom: 10px;
+  }
+  .easySpoilerWrapper {
+    p {
+      color: darken($background-grey,15%);
+    }
+  }
+}
+
+div.large-4 {
+  height: auto;
+  @media screen and (min-width: $break-medium) { // Large and up
+    height: 161px;
   }
 }
 

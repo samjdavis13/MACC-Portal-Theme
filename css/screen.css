@@ -90,57 +90,56 @@ h6 {
   font-size: 12px; }
 
 /* line 34, ../sass/_fonts.scss */
-.deafult-text, p, ul, ol {
+.default-text, p, ul, ol {
   font-family: Calibri, "asapregular", arial, sans-serif;
   font-size: 14px;
   line-height: 1.3;
-  color: #58595c;
-  margin-bottom: 10px; }
+  color: #58595c; }
 
-/* line 42, ../sass/_fonts.scss */
+/* line 44, ../sass/_fonts.scss */
 ul, ol {
   list-style-type: disc;
   padding-left: 15px; }
 
-/* line 47, ../sass/_fonts.scss */
+/* line 49, ../sass/_fonts.scss */
 ol {
   list-style-type: decimal; }
 
-/* line 52, ../sass/_fonts.scss */
+/* line 54, ../sass/_fonts.scss */
 nav {
   font-family: Calibri, "asapregular", arial, sans-serif;
   font-size: 14px;
   color: #58595c; }
   @media screen and (max-width: 1024px) {
-    /* line 52, ../sass/_fonts.scss */
+    /* line 54, ../sass/_fonts.scss */
     nav {
       font-size: 16px; } }
   @media screen and (max-width: 640px) {
-    /* line 52, ../sass/_fonts.scss */
+    /* line 54, ../sass/_fonts.scss */
     nav {
       font-size: 18px; } }
 
-/* line 61, ../sass/_fonts.scss */
+/* line 63, ../sass/_fonts.scss */
 footer {
   font-size: 100px; }
-  /* line 63, ../sass/_fonts.scss */
+  /* line 65, ../sass/_fonts.scss */
   footer ul li a, footer ol li a {
     line-height: 135px;
     color: #58595c; }
     @media screen and (max-width: 640px) {
-      /* line 63, ../sass/_fonts.scss */
+      /* line 65, ../sass/_fonts.scss */
       footer ul li a, footer ol li a {
         line-height: 100px;
         position: relative;
         top: 5px; } }
-  /* line 68, ../sass/_fonts.scss */
+  /* line 70, ../sass/_fonts.scss */
   footer ul li a:hover, footer ol li a:hover {
     color: white; }
-  /* line 71, ../sass/_fonts.scss */
+  /* line 73, ../sass/_fonts.scss */
   footer #search {
     line-height: 125px; }
 
-/* line 77, ../sass/_fonts.scss */
+/* line 79, ../sass/_fonts.scss */
 #very-footer p, #very-footer ul, #very-footer ol {
   font-family: "heroregular", arial, sans-serif;
   text-transform: uppercase;
@@ -148,17 +147,17 @@ footer {
   position: relative;
   top: 6px; }
   @media screen and (max-width: 640px) {
-    /* line 77, ../sass/_fonts.scss */
+    /* line 79, ../sass/_fonts.scss */
     #very-footer p, #very-footer ul, #very-footer ol {
       font-size: 10px;
       top: 5px; } }
   @media screen and (max-width: 320px) {
-    /* line 77, ../sass/_fonts.scss */
+    /* line 79, ../sass/_fonts.scss */
     #very-footer p, #very-footer ul, #very-footer ol {
       font-size: 9px;
       top: 4.5px; } }
 
-/* line 88, ../sass/_fonts.scss */
+/* line 90, ../sass/_fonts.scss */
 ul.symbol li, ol.symbol li {
   font-size: 60px; }
 
@@ -323,16 +322,27 @@ ul#main-nav, ol#main-nav {
     #main-grid h3 {
       text-align: center; } }
 /* line 13, ../sass/_body.scss */
-#main-grid p, #main-grid ul, #main-grid ol {
-  margin-bottom: 20px; }
-/* line 16, ../sass/_body.scss */
 #main-grid img {
   margin: 15px 0;
   -moz-border-radius: 8px;
   -webkit-border-radius: 8px;
   border-radius: 8px; }
+/* line 17, ../sass/_body.scss */
+#main-grid div.large-8 {
+  margin-bottom: 10px; }
+/* line 21, ../sass/_body.scss */
+#main-grid .easySpoilerWrapper p, #main-grid .easySpoilerWrapper ul, #main-grid .easySpoilerWrapper ol {
+  color: #cccccc; }
 
-/* line 22, ../sass/_body.scss */
+/* line 27, ../sass/_body.scss */
+div.large-4 {
+  height: auto; }
+  @media screen and (min-width: 1024px) {
+    /* line 27, ../sass/_body.scss */
+    div.large-4 {
+      height: 161px; } }
+
+/* line 34, ../sass/_body.scss */
 .item-container {
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
@@ -343,25 +353,25 @@ ul#main-nav, ol#main-nav {
   background: white;
   overflow: hidden; }
 
-/* line 29, ../sass/_body.scss */
+/* line 41, ../sass/_body.scss */
 .addmargin {
   margin-top: 10px;
   margin-bottom: 10px;
   padding: 20px; }
 
-/* line 35, ../sass/_body.scss */
+/* line 47, ../sass/_body.scss */
 #main-content {
   padding: 20px;
   background: #f2f2f2;
   position: relative;
   z-index: 2; }
 
-/* line 42, ../sass/_body.scss */
+/* line 54, ../sass/_body.scss */
 #sidebar {
   padding: 20px;
   text-align: center; }
 
-/* line 47, ../sass/_body.scss */
+/* line 59, ../sass/_body.scss */
 article {
   padding-bottom: 20px; }
 
@@ -439,6 +449,6 @@ footer {
 /*============
 --- GENERAL ---
 ============*/
-/* line 49, ../sass/screen.scss */
+/* line 50, ../sass/screen.scss */
 HTML {
   background: #2e3a41; }
