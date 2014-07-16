@@ -1,47 +1,31 @@
 /*============
 ---- NAV ----
 ============*/
+nav.small-12 {
+  height: 38px;
+  margin-left: -10px;
+  @media screen and (max-width: $break-medium) { margin-left: 10px; }
+  @media screen and (max-width: $break-small) { height: auto; }
 
-ul#main-nav {
-  position: relative;
-  top:25px;
+  ul#main-nav {
+    @media screen and (max-width: $break-small) { margin: 0 -30px 0 -20px; }
 
-  @media screen and (max-width: $break-small) {
-    top: 0;
-    margin: 0 -30px;
-    margin-left: -10px
-  }
-  li {
-    z-index: 0;
-    background: shade($background-grey, 10%);
-    @include border-radius($default-border-radius);
-    margin: 0 2px;
+    li {
+      background: shade($background-grey, 10%);
+      @include border-radius($nav-radius);
+      margin: 0 2px;
 
-    @media screen and (max-width: $break-small) {
-      //width: 100%;
-      margin: 0;
-      @include border-radius(0);
-
-      @include border-radius(5px 5px 0 0);
-
-      text-align: center;
-      //padding: 0 20px;
-      //border-bottom: white 1px solid;
-      margin-right: 3px;
-      position: relative;
-    }
-
-    a {
-      color: $grey-text;
-      padding: 10px 40px 20px 40px;
-      @media screen and (max-width: $break-small) {
-        position: relative;
-        top: 4px;
-        padding: 5px 20px 10px 20px;
+      @media screen and (max-width: $break-small) { @include border-radius(5px 5px 0 0); }
+      
+      a {
+        color: $grey-text;
+        padding: 10px 40px;
+        @media screen and (max-width: $break-small) { 
+          padding: 7px 25px; 
+        }
       }
     }
-  }
-  li.current_page_item {
-    background: $background-grey;
+
+    li.current_page_item { background: $background-grey; }
   }
 }
