@@ -1,6 +1,6 @@
  <footer id='footer-container'>
       <div class='row'>
-        <div class='large-12 column'>
+        <div class='large-12 column' id='footer-logo'>
 
           <div class='large-4 large-offset-2 columns hide-for-medium hide-for-small'>
             <img src="<?php bloginfo('template_directory'); ?>/img/logo-reverse.png">

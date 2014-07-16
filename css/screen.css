@@ -123,41 +123,47 @@ nav {
 footer {
   font-size: 100px; }
   /* line 65, ../sass/_fonts.scss */
+  footer img {
+    margin: 0;
+    padding: 0; }
+  /* line 69, ../sass/_fonts.scss */
   footer ul li a, footer ol li a {
     line-height: 135px;
     color: #58595c; }
     @media screen and (max-width: 640px) {
-      /* line 65, ../sass/_fonts.scss */
+      /* line 69, ../sass/_fonts.scss */
       footer ul li a, footer ol li a {
         line-height: 100px;
         position: relative;
         top: 5px; } }
-  /* line 70, ../sass/_fonts.scss */
+  /* line 74, ../sass/_fonts.scss */
   footer ul li a:hover, footer ol li a:hover {
     color: white; }
-  /* line 73, ../sass/_fonts.scss */
-  footer #search {
-    line-height: 125px; }
 
 /* line 79, ../sass/_fonts.scss */
+#footer-logo {
+  height: 135px; }
+
+/* line 84, ../sass/_fonts.scss */
 #very-footer p, #very-footer ul, #very-footer ol {
+  margin-bottom: 10px;
   font-family: "heroregular", arial, sans-serif;
   text-transform: uppercase;
   font-size: 12px;
   position: relative;
   top: 6px; }
   @media screen and (max-width: 640px) {
-    /* line 79, ../sass/_fonts.scss */
+    /* line 84, ../sass/_fonts.scss */
     #very-footer p, #very-footer ul, #very-footer ol {
       font-size: 10px;
       top: 5px; } }
   @media screen and (max-width: 320px) {
-    /* line 79, ../sass/_fonts.scss */
+    /* line 84, ../sass/_fonts.scss */
     #very-footer p, #very-footer ul, #very-footer ol {
       font-size: 9px;
       top: 4.5px; } }
 
-/* line 90, ../sass/_fonts.scss */
+/* line 96, ../sass/_fonts.scss */
 ul.symbol li, ol.symbol li {
   font-size: 60px; }
 
@@ -324,9 +330,9 @@ ul#main-nav, ol#main-nav {
 /* line 13, ../sass/_body.scss */
 #main-grid img {
   margin: 15px 0;
-  -moz-border-radius: 8px;
-  -webkit-border-radius: 8px;
-  border-radius: 8px; }
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+  border-radius: 7px; }
 /* line 17, ../sass/_body.scss */
 #main-grid div.large-8 {
   margin-bottom: 10px; }
