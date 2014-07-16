@@ -301,9 +301,9 @@ nav.small-12 {
     @media screen and (max-width: 640px) {
       /* line 13, ../sass/_nav.scss */
       nav.small-12 ul#main-nav li, nav.small-12 ol#main-nav li {
-        -moz-border-radius: 5px 5px 0 0;
-        -webkit-border-radius: 5px;
-        border-radius: 5px 5px 0 0; } }
+        -moz-border-radius: 7px 7px 0 0;
+        -webkit-border-radius: 7px;
+        border-radius: 7px 7px 0 0; } }
     /* line 20, ../sass/_nav.scss */
     nav.small-12 ul#main-nav li a, nav.small-12 ol#main-nav li a {
       color: #58595c;

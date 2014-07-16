@@ -15,7 +15,7 @@ nav.small-12 {
       @include border-radius($nav-radius);
       margin: 0 2px;
 
-      @media screen and (max-width: $break-small) { @include border-radius(5px 5px 0 0); }
+      @media screen and (max-width: $break-small) { @include border-radius(7px 7px 0 0); }
       
       a {
         color: $grey-text;
@@ -25,7 +25,7 @@ nav.small-12 {
         }
       }
     }
-
+    
     li.current_page_item { background: $background-grey; }
   }
 }
