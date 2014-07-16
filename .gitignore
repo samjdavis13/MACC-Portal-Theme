@@ -1,8 +1,17 @@
 
 config.codekit
 
+**/.sass-cache
+**/.sass-cache/*
+
 .sass-cache/*
+.sass-cache/**
+
+**.sass-cache**
 
 *.scssc
 
 *.codekit
+*.scssc
+
+*.scssc
