@@ -342,17 +342,18 @@ ul#main-nav, ol#main-nav {
   margin-bottom: 10px; }
 /* line 21, ../sass/_body.scss */
 #main-grid .easySpoilerWrapper p, #main-grid .easySpoilerWrapper ul, #main-grid .easySpoilerWrapper ol {
-  color: #cccccc; }
+  color: #cccccc;
+  text-align: left; }
 
-/* line 27, ../sass/_body.scss */
+/* line 28, ../sass/_body.scss */
 div.large-4 {
   height: auto; }
   @media screen and (min-width: 1025px) {
-    /* line 27, ../sass/_body.scss */
+    /* line 28, ../sass/_body.scss */
     div.large-4 {
       height: 161px; } }
 
-/* line 34, ../sass/_body.scss */
+/* line 35, ../sass/_body.scss */
 .item-container {
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
@@ -363,25 +364,25 @@ div.large-4 {
   background: white;
   overflow: hidden; }
 
-/* line 41, ../sass/_body.scss */
+/* line 42, ../sass/_body.scss */
 .addmargin {
   margin-top: 10px;
   margin-bottom: 10px;
   padding: 20px; }
 
-/* line 47, ../sass/_body.scss */
+/* line 48, ../sass/_body.scss */
 #main-content {
   padding: 20px;
   background: #f2f2f2;
   position: relative;
   z-index: 2; }
 
-/* line 54, ../sass/_body.scss */
+/* line 55, ../sass/_body.scss */
 #sidebar {
   padding: 20px;
   text-align: center; }
 
-/* line 59, ../sass/_body.scss */
+/* line 60, ../sass/_body.scss */
 article {
   padding-bottom: 20px; }
 
