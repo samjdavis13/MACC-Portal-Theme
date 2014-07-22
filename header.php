@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/foundation.css" />
     <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/fonts/font-face.css" />
     <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/screen.css" />
+    <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/override.css" />
 
     <!-- Font Awesome Icons -->
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
