@@ -726,16 +726,21 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/screenshot.png": {
-		"fileType": 32768,
+	"\/sass\/screen.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 105937,
-		"inputAbbreviatedPath": "\/screenshot.png",
-		"outputAbbreviatedPath": "\/screenshot.png",
+		"inputAbbreviatedPath": "\/sass\/screen.scss",
+		"outputAbbreviatedPath": "\/css\/screen.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
 		},
 	"\/search.php": {
 		"fileType": 8192,
