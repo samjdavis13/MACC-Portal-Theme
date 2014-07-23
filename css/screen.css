@@ -92,8 +92,8 @@ h6 {
 /* line 34, ../sass/_fonts.scss */
 .default-text, p, ul, ol {
   font-family: Calibri, "asapregular", arial, sans-serif;
-  font-size: 14px;
-  line-height: 1.3;
+  font-size: 16px;
+  line-height: 1.5;
   color: #58595c; }
 
 /* line 44, ../sass/_fonts.scss */
@@ -275,23 +275,23 @@ ul.symbol li, ol.symbol li {
 /*============
 ---- NAV ----
 ============*/
-/* line 4, ../sass/_nav.scss */
+/* line 5, ../sass/_nav.scss */
 nav.small-12 {
   height: 38px;
   margin-left: -10px; }
   @media screen and (max-width: 1024px) {
-    /* line 4, ../sass/_nav.scss */
+    /* line 5, ../sass/_nav.scss */
     nav.small-12 {
       margin-left: 10px; } }
   @media screen and (max-width: 640px) {
-    /* line 4, ../sass/_nav.scss */
+    /* line 5, ../sass/_nav.scss */
     nav.small-12 {
       height: auto; } }
   @media screen and (max-width: 640px) {
-    /* line 10, ../sass/_nav.scss */
+    /* line 11, ../sass/_nav.scss */
     nav.small-12 ul#main-nav, nav.small-12 ol#main-nav {
       margin: 0 -30px 0 -20px; } }
-  /* line 13, ../sass/_nav.scss */
+  /* line 14, ../sass/_nav.scss */
   nav.small-12 ul#main-nav li, nav.small-12 ol#main-nav li {
     background: #d9d9d9;
     -moz-border-radius: 10px 10px 0 0;
@@ -299,20 +299,20 @@ nav.small-12 {
     border-radius: 10px 10px 0 0;
     margin: 0 2px; }
     @media screen and (max-width: 640px) {
-      /* line 13, ../sass/_nav.scss */
+      /* line 14, ../sass/_nav.scss */
       nav.small-12 ul#main-nav li, nav.small-12 ol#main-nav li {
         -moz-border-radius: 7px 7px 0 0;
         -webkit-border-radius: 7px;
         border-radius: 7px 7px 0 0; } }
-    /* line 20, ../sass/_nav.scss */
+    /* line 21, ../sass/_nav.scss */
     nav.small-12 ul#main-nav li a, nav.small-12 ol#main-nav li a {
       color: #58595c;
-      padding: 10px 40px; }
+      padding: 7px 40px; }
       @media screen and (max-width: 640px) {
-        /* line 20, ../sass/_nav.scss */
+        /* line 21, ../sass/_nav.scss */
         nav.small-12 ul#main-nav li a, nav.small-12 ol#main-nav li a {
           padding: 7px 25px; } }
-  /* line 29, ../sass/_nav.scss */
+  /* line 30, ../sass/_nav.scss */
   nav.small-12 ul#main-nav li.current_page_item, nav.small-12 ol#main-nav li.current_page_item {
     background: #f2f2f2; }
 
@@ -457,6 +457,6 @@ footer {
 /*============
 --- GENERAL ---
 ============*/
-/* line 52, ../sass/screen.scss */
+/* line 59, ../sass/screen.scss */
 HTML {
   background: #2e3a41; }

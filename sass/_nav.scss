@@ -1,6 +1,7 @@
 /*============
 ---- NAV ----
 ============*/
+
 nav.small-12 {
   height: 38px;
   margin-left: -10px;
@@ -19,7 +20,7 @@ nav.small-12 {
       
       a {
         color: $grey-text;
-        padding: 10px 40px;
+        padding: 7px 40px;
         @media screen and (max-width: $break-small) { 
           padding: 7px 25px; 
         }
